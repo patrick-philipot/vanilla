@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS Wordle Helper</title>
+</head>
+<body>
+    <div class="control">
+        <input type="text" size="5"placeholder="Lettres présentes"id="corrects">
+        <input type="text" size="20" placeholder="Lettres absentes"id="incorrects">
+        <input type="text" size="1" placeholder="1"id="L1">
+        <input type="text" size="1" placeholder="2"id="L2">
+        <input type="text" size="1" placeholder="3"id="L3">
+        <input type="text" size="1" placeholder="4"id="L4">
+        <input type="text" size="1" placeholder="5"id="L5">
+    </div>
+    <button onclick="Recherche()">Recherche</button>
+    <div id="affichage">
+        <p id="compteur">20 mots trouvés</p>
+        <ul>
+
+        </ul>
+
+    </div>
+    
+</body>
+</html>
